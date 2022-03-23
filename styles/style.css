@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/bg.jpg');
+    background-position: center;
+}
+
+h1{
+    font-weight:100 ;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 60vh;
+    justify-content: space-around;
+    color: #fff;
+    margin: auto;
+    margin-top: 5%;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    width: 100%;
+}
+.login-form input{
+    height: 50px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 25px;
+    font-weight: 300;
+}
+.login-form input:focus{
+    background-color: transparent;
+    border: 1px solid rgb(233, 0, 0);
+}
+.login-form input:hover{
+    background-color: transparent;
+    border: 1px solid rgb(133, 132, 132);
+    transition: ease-in-out .5s;
+}
+.btn{
+    font-weight: 400;
+    height: 50px;
+    border-radius: 30px;
+    border-color: transparent;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgb(236, 200, 152);
+}
+.btn:hover{
+    background-color: rgb(214, 180, 135);
+    transition: ease-in-out.5s;
+}
+.login-form div{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.login-form div a{
+    text-decoration: none;
+    color: #fff;
+}
+.login-form div div{
+    width: 40%;
+    color: #fff;
+    font-weight: 400;
+}
+.login-form div a:hover{
+    color: #000;
+}
+h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+.social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-social{
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    width: 48%;
+    font-weight: 400;
+}
+.btn-social:hover{
+    background-color: #000;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
